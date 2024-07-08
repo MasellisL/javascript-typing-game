@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    background-color: antiquewhite;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+.usertextwrapper {
+    display: flex;
+    justify-content: center;
+
+}
+#typedText {
+    width: 60%;
+    height: 250px;
+}
+
+.statswrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statswrapper h2{
+    margin-right: 50px;
+}
+
+.paragraph{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.timer{
+    font-size: 40px;
+}
+
+.text-area{
+    border: 3px solid black;
+    font-size: 18px;
+    
+}
